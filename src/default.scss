@@ -41,6 +41,19 @@ a:hover {
   transition: all 0.1s ease-in-out;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
 .main {
   width: 100%;
   max-width: 1450px;

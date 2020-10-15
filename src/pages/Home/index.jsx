@@ -3,7 +3,7 @@ import "./styles.scss";
 
 import { Directory } from "../../components";
 
-const Homepage = () => {
+const Home = () => {
   return (
     <section className="homepage">
       <Directory />
@@ -11,4 +11,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;
