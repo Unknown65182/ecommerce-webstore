@@ -1,24 +1,23 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Header } from "./components";
-import { Home, Registration } from "./pages";
+import { MainLayout } from "./layouts";
+import { Homepage, Registration } from "./pages";
 
 import "./default.scss";
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <main className="main">
+      <MainLayout>
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Homepage />
           </Route>
           <Route path="/registration">
             <Registration />
           </Route>
         </Switch>
-      </main>
+      </MainLayout>
     </div>
   );
 }

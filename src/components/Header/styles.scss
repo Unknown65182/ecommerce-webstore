@@ -20,6 +20,7 @@
   &__body {
     list-style: none;
     display: flex;
+    text-transform: uppercase;
   }
   &__item {
     & > a {
