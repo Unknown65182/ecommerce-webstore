@@ -38,6 +38,7 @@ const Header = ({ currentUser }) => {
             )}
           </ul>
         </div>
+        {currentUser && <img src={currentUser.photoURL} alt="" />}
       </div>
     </header>
   );
