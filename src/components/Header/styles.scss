@@ -8,10 +8,6 @@
     display: flex;
     justify-content: space-between;
   }
-  &__menu {
-  }
-  &__logo {
-  }
 }
 
 .menu {
@@ -31,7 +27,7 @@
       }
     }
     &:not(:last-child) {
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
   }
 }
